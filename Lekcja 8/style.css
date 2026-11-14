@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: rgb(37, 48, 65);
+	min-height: 100vh;
+	background: linear-gradient(35deg, #4ec8d1, #8ff8ff);
+	/* TODO: dodaj gradient liniowy jako tło strony */
+	
+	
+}
+
+header {
+	padding: 24px 32px;
+	color: rgb(0, 0, 0);
+	/* TODO: dodaj półprzezroczyste tło i cień tekstu dla nagłówka */
+	background-color: rgba(0, 0, 0, 0.336) ;
+}
+
+nav ul {
+	list-style: none;
+	display: flex; 
+	gap: 16px;
+	margin-top: 12px;
+}
+
+nav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+#intro {
+	padding: 32px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+/* TODO: dodaj style siatki .ranking-grid z flex-wrap, gap i wyśrodkowaniem kart */
+.ranking-grid{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10%;
+	
+}
+
+/* TODO: dodaj style pojedynczej karty .phone-card oraz obrazka i odznaki z oceną */
+
+footer {
+	padding: 24px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
+}
